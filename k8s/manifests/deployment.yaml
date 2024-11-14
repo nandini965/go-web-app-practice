@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: go-web-app-practice
-          image: nandini965/go-web-app-practice
+          image: nandini965/go-web-app-practice:v1
           ports:
             - containerPort: 8080
