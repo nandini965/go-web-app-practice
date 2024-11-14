@@ -13,6 +13,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: go-web-app
+                name: go-web-app-practice
                 port:
                   number: 8080
