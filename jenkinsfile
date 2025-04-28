@@ -15,7 +15,7 @@ stage('Static Code Analysis') {
         }
       }
       }
- stage (docker build and run) {
+ stage ('docker build and run') {
  environment {
          DOCKER_IMAGE = "nandini965/go-web-app-cicd:${BUILD_NUMBER}"
          REGISTRY_CREDENTIALS = credentials('dockerhub-cred')
