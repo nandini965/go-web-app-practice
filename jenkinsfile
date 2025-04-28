@@ -50,3 +50,4 @@ stage('Static Code Analysis') {
            }
 
 }
+}
