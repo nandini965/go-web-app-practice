@@ -1,11 +1,7 @@
 pipeline {
 agent any
 stages {
-stage('npm install') {
-steps {
- sh 'npm install'
-}
-}
+
 stage('Static Code Analysis') {
       environment {
         SONAR_URL = "http://3.109.206.229:9000"
